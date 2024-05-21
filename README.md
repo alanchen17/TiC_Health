@@ -2,6 +2,7 @@
 First, let me just say it is very interesting to see what other people have come up with. Ironically, but simply search up Serif Health - you can see others' approach. Kudos to the creative repo names 😌. (https://github.com/search?q=serif%20health&type=repositories). However, this is in fact my work and no ideas/code were copied or taken from others.
 
 ## The script or code used to parse the file and produce output.
+https://github.com/alanchen17/TiC_Health/blob/main/main.py
 
 ## The setup or packaging file(s) required to bootstrap and execute your solution code
 ```
@@ -10,7 +11,7 @@ pip3 install ijson
 Download the ToC file and unzip the contents within this directory. Currently have it named as `2024-05-01_anthem_index.json`
 
 ## The output URL list.
-
+https://serifhealth123.s3.us-east-2.amazonaws.com/output_file.csv
 
 ## A README file, explaining your solution, how long it took you to write, how long it took to run, and the tradeoffs you made along the way.
 Took me about 30mins to write the code and 43.7sec for the code to run. Most of my time was spent on understanding the problem and the data format as well as tradeoffs.

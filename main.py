@@ -13,7 +13,7 @@ with open(json_file_path, 'r') as json_file, open(csv_file_path, 'w', newline=''
         des_details = item['description'].lower()
         if "ny" in des_details or " new york" in des_details:
             # if "ppo" in des_details:
-            writer.writerow(item.values())
+            writer.writerow([item['location']])
     csv_file.flush()
     csv_file.close()
 

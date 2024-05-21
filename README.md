@@ -7,6 +7,7 @@ First, let me just say it is very interesting to see what other people have come
 ```
 pip3 install ijson
 ```
+Download the ToC file and unzip the contents within this directory. Currently have it named as `2024-05-01_anthem_index.json`
 
 ## The output URL list.
 
